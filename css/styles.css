@@ -21,7 +21,6 @@ body {
   max-width: 1200px;
   width: 100%;
   padding: 0 15px;
-  outline: solid red;
   margin: 0 auto;
 }
 
@@ -284,6 +283,7 @@ body {
   letter-spacing: 0.42px;
   margin-top: 20px;
   display: block;
+  font-style: normal;
 }
 
 .footer-link {
@@ -294,6 +294,7 @@ body {
   letter-spacing: 0.42px;
   margin-top: 9px;
   display: block;
+  font-style: normal;
 }
 
 /* Portfolio */
@@ -323,11 +324,9 @@ body {
 
 .portfolio-btn:hover {
   color: var(--second-accent-color, #fff);
-  text-align: center;
   background: var(--accent-color, #2196f3);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  padding: 6px 25px;
 }
 
 .portfolio-article-list {
@@ -340,6 +339,9 @@ body {
 
 .portfolio-article-item {
   flex-basis: calc((100% - 60px) / 3);
+}
+
+.portfolio-article-item:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
